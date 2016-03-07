@@ -604,6 +604,31 @@ body {
 .socialmail:hover span {
 	opacity: 1;
 }
+
+
+
+.socialtube {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 30px;
+	height: 30px;
+	background: url(../img/artisticas/socialtube.png) no-repeat;
+}
+.socialtube span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/socialtube.png) no-repeat;
+	background-position: 0 0;
+}
+
+.socialtube:hover span {
+	opacity: 1;
+	background-position: 0 -30px;
+}
+
+
+
 .menuclinica {
 	display: inline-block;
 	position: relative;
@@ -723,6 +748,26 @@ body {
 .menufaq:hover span {
 	opacity: 1;
 }
+
+.menublog {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 80px;
+	height: 38px;
+	background: url(../img/menu/menublog.png) no-repeat;
+}
+.menublog span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/menublog.png) no-repeat;
+	background-position: 0 0;
+}
+.menublog:hover span {
+	opacity: 1;
+	background-position: 0 -38px;
+}
+
 .homefone {
 	display: inline-block;
 	position: relative;
