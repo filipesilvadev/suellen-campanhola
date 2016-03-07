@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Tratamentos faciais, corporais, depilação, fotodepilação, design de sobrancelhas, tratamentos de última geração e bem-estar. Atendemos na região do Tatuapé, agende sua avaliação grátis!">
+<meta name="keywords" content="estética, depilação, fotodepilação, celulite, flacidez, design de sobrancelhas, estria, gordura localizada, peeling, peeling de cristal, peeling de diamante, limpeza de pele, massagem, massagem modeladora, heccus, drenagem, tratamentos faciais, tratamentos corporais, criolipólise">
+<meta name="robots" content="index,follow">
+<title>Suellen Campanhola Estética</title>
+
+<link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="icon/favicon.gif" type="image/gif" /> 
+
+<!-- abre CSS -->
+<link href="css/estilo.css" rel="stylesheet" type="text/css">
+<!-- fecha CSS -->
+
+<!--[if IE 7]>
+	<script type="text/javascript">
+	location.href='atualize.html';
+	</script>
+<![endif]-->
+
+<!--[if IE 6]>
+	<script type="text/javascript">
+	location.href='atualize.html';
+	</script>
+<![endif]-->
+
+<!--[if IE 5]>
+	<script type="text/javascript">
+	location.href='atualize.html';
+	</script>
+<![endif]-->
+
+<!-- abre img sliders -->
+<script src="scripts/sliderengine/jquery.js"></script>
+<script src="scripts/sliderengine/amazingslider.js"></script>
+<script src="scripts/sliderengine/initslider-1.js"></script>
+<script src="scripts/sliderengine/initslider-2.js"></script>
+<!-- fecha img sliders -->
+
+<!-- abre script hover botões -->
+<script src="scripts/hover.js"></script>
+<!-- fecha scripts hover botões -->
+
+<!-- abre show/hide mailing -->
+<script language="javascript"> 
+<!--
+var state = 'none';
+
+function showhide(layer_ref) {
+
+if (state == 'block') { 
+state = 'none'; 
+} 
+else { 
+state = 'block'; 
+} 
+if (document.all) { //IS IE 4 or 5 (or 6 beta) 
+eval( "document.all." + layer_ref + ".style.display = state"); 
+} 
+if (document.layers) { //IS NETSCAPE 4 or below 
+document.layers[layer_ref].display = state; 
+} 
+if (document.getElementById &&!document.all) { 
+hza = document.getElementById(layer_ref); 
+hza.style.display = state; 
+} 
+} 
+//--> 
+</script> 
+<!-- fecha show/hide mailing -->
+
+<!-- abre script imagens -->
+<script>
+$(document).ready(function() {
+
+$(".galeria2").click(function(event) {
+event.preventDefault();
+$("#galeria2").html($("<img>").attr("src", this.href));
+});
+
+});
+</script>
+<!-- fecha script imagens -->
+
+<!-- abre google analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16195208-24']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- fecha google analytics -->
+</head>
+
+<body oncopy="return false" oncut="return false" onpaste="return false">
+<div id="container">
+	<div id="topomarcadagua"></div>
+    <div id="logo"><a href="index.html"><img src="img/artisticas/logo.png"></a></div>
+    <div id="social">
+    	<div style="width:30px; height:30px; margin-right:41px; margin-top:23px; float:right;">
+		<a href="http://instagram.com/suellencampanhola" class="socialinsta" target="_blank"><span></span></a>
+		</div>
+        <div style="width:30px; height:30px; margin-right:20px; margin-top:23px; float:right;">
+		<a href="https://www.facebook.com/suellencampanhola" class="socialface" target="_blank"><span></span></a>
+		</div>
+        <div style="width:30px; height:30px; margin-right:19px; margin-top:23px; float:right;">
+		<a href="#" class="socialmail" onclick="showhide('mail2')"><span></span></a>
+		</div>
+	</div>
+    <div id="menu">
+    <img src="img/menu/menuclinica2.png">
+    <a href="servicos.html" class="menuservicos"><span></span></a>
+    <a href="contato.html" class="menucontato"><span></span></a>
+    <a href="depoimentos.html" class="menudepoimentos"><span></span></a>
+    <a href="noivas.html" class="menunoivas"><span></span></a>
+    <a href="clipping.html" class="menuclipping"><span></span></a>
+    <a href="faq.html" class="menufaq"><span></span></a>
+    </div>
+   	<div id="mail2"><span class="txtbrancorodape">Receba novidades por e-mail</span>
+		<div id="mail3">
+		<form action= "mail/mailing.php" method="post" name="form1" id="form1" onSubmit="return valida_form()">
+		<input name= "Email" type="text" class= "formulario_preenchimento" id="Email" size="25" />
+		<input type="submit" class="formulario_preenchimento" value="ok" />
+		<input name="Wremetente" type="hidden" id="Wremetente" value="contato@suellencampanhola.com" />
+		<input name="Wdestinatario" type="hidden" id="Wdestinatario" value="contato@suellencampanhola.com" />
+		<input name="Wassunto" type="hidden" id="Wassunto" value="Cadastrar no mailing" />
+		<input name="Wsaida" type="hidden" id="Wsaida" value="http://www.suellencampanhola.com/aclinica.html" />
+		</form>
+		</div>
+	</div>
+    <div id="aclinicamainwindow2">
+	    <div id="aclinicaseparador02"></div>
+    	<div id="aclinicaesquerda">
+        	<div style="width:550px; height:5px; margin-top:495px; position:absolute; float:left; z-index:1; background-image:url(img/artisticas/molduragaleria.png);"></div>
+        	<div id="galeria2"><img src="img/equipe/full/01.jpg"></div>
+            <div style="width:550px; margin-top:500px; text-align:left; display:block;">
+            	<div style="width:550px; margin-top:25px; position:absolute;"><img src="img/artisticas/aclinicatitulogrande3.png" width="550" height="35"></div>
+				<div style="width:550px; margin-top:70px; position:absolute; text-align:left;">
+                
+                <span class="txtrosatitulo"><strong>Suellen Campanhola</strong><br/></span>
+                <span class="txtmarromdefault">
+                Formada em Estética e  Cosmetologia pela Universidade Anhembi Morumbi e pós-graduanda em Estética Dermaticista, hoje comanda uma equipe altamente qualificada e atualizada com o que há de mais moderno em tecnologia e tratamentos estéticos, proporcionando um atendimento cada vez mais completo e inovador.<br/><br/>
+				Seu currículo internacional conta com a participação em vários congressos e cursos no exterior, como na Argentina, Uruguai e Europa.<br/>
+                Atuou na Finlândia como esteticista facial e designer de sobrancelhas, onde desenvolveu  técnicas diferenciadas no tingimento das mesmas, dando-lhes um efeito natural e duradouro. Sua verdadeira paixão e habilidades nesta especialidade garantiram-lhe grande reconhecimento, responsável por seu sucesso no Brasil,  entre as clientes mais exigentes e famosas.<br/><br/>
+                Além disso, participou do desenvolvimento do método Lipax, que representa grande diferencial no mercado por ser uma novidade não invasiva altamente eficiente para o tratamento da gordura localizada.<br/><br/>
+                Toda essa ampla experiência, formação e competência faz com que seja reconhecida hoje como uma das esteticistas mais conceituadas do ramo, além de manter exigência e capricho com sua clínica, que vem crescendo aceleradamente!<br/><br/></span>
+            	
+                <span class="txtrosatitulo"><strong>Joyce Alves</strong><br/></span>
+                <span class="txtmarromdefault">
+                Gerente de equipe, esteticista graduada especialista em pós operatório e em rejuvenescimento facial;<br/><br/></span>
+				
+                <span class="txtrosatitulo"><strong>Ana Caroline</strong><br/></span>
+                <span class="txtmarromdefault">
+                Esteticista, depiladora, designer de sobrancelha e especialista em aplicação de depilação a laser;<br/><br/></span>
+				
+                <span class="txtrosatitulo"><strong>Nathalia</strong><br/></span>
+                <span class="txtmarromdefault">
+                Esteticista e especialista em técnicas spasianas;<br/><br/></span>
+				
+                <span class="txtrosatitulo"><strong>Dra. Rafaela Marins</strong><br/></span>
+                <span class="txtmarromdefault">
+                Medicina estética e nutrologia;<br/><br/></span>
+                
+                <span class="txtrosatitulo"><strong>Manoela</strong><br/></span>
+                <span class="txtmarromdefault">
+                Esteticista facial e especialista em Peelings;<br/><br/></span>
+                
+                <span class="txtrosatitulo"><strong>Thaís Caroline</strong><br/></span>
+                <span class="txtmarromdefault">
+                Esteticista facial e corporal;<br/><br/></span>
+                
+                <span class="txtrosatitulo"><strong>Thaís Zucckini</strong><br/></span>
+                <span class="txtmarromdefault">
+                Esteticista facial e corporal;<br/><br/></span>
+                
+                <span class="txtrosatitulo"><strong>Alessandra</strong><br/></span>
+                <span class="txtmarromdefault">
+                Esteticista e designer de sobrancelha;<br/><br/></span>
+                
+                <span class="txtrosatitulo"><strong>Fernanda</strong><br/></span>
+                <span class="txtmarromdefault">
+                Secretária;<br/><br/></span>
+                
+                <span class="txtrosatitulo"><strong>Marcelle</strong><br/></span>
+                <span class="txtmarromdefault">
+                Secretária.<br/><br/></span>
+                
+				</div>
+			</div>
+		</div>
+    	<div id="aclinicadireita2">
+        	<div style="width:80px; height:75px; float:right; position:relative; z-index:1; margin-top:40px; margin-right:141px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a href="img/equipe/full/01.jpg" class="galeria2"><img src="img/equipe/thmb/01.png"></a></div>
+        	<div style="width:80px; height:75px; float:right; position:relative; margin-top:-10px; margin-right:213px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a href="img/equipe/full/02.jpg" class="galeria2"><img src="img/equipe/thmb/02.png"></a></div>
+            <div style="width:80px; height:75px; float:right; position:relative; margin-top:-80px; margin-right:71px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a href="img/equipe/full/03.jpg" class="galeria2"><img src="img/equipe/thmb/03.png"></a></div>
+			<div style="width:80px; height:75px; float:right; position:relative; margin-top:-10px; margin-right:141px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a href="img/equipe/full/06.jpg" class="galeria2"><img src="img/equipe/thmb/06.png"></a></div>
+           <div style="width:80px; height:75px; float:right; position:relative; margin-top:-8px; margin-right:71px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a href="img/equipe/full/05.jpg" class="galeria2"><img src="img/equipe/thmb/05.png"></a></div>
+            <div style="width:115px; height:82px; float:right; position:relative; margin-top:100px; margin-right:111px; padding-top:5px;">
+			<div style="width:115px; height:24px;"><a href="aclinica.html" class="aclinicagaleria1"><span></span></a></div>
+			<div style="width:115px; height:24px; margin-top:5px;"><a href="tratamentos.html" class="aclinicagaleria2"><span></span></a></div>
+			<div style="width:115px; height:24px; margin-top:5px;"><img src="img/artisticas/aclinicagaleria032.png"></div>
+            </div>
+		</div>
+    </div>
+	<div id="petala3"></div>
+</div>
+<div id="rodape">
+	<div style="width:900px; height:40px; text-align:right;	margin:0 auto;">
+    	<div style="width:62px; height:20px; text-align:right;	margin:0 auto; margin-top:5px; float:right;">
+    	<a href="http://www.raphaelmartins.com.br" target="_blank"><img src="img/artisticas/logomms.png"></a>
+    	</div>
+        <div style="width:250px; height:20px; text-align:right;	margin:0 auto; margin-top:20px; margin-right:7px; float:right;">
+		<span class="txtbrancorodape">2014 Estética Suellen Campanhola | Desenvolvido por</span>
+		</div>
+        <div style="width:550px; height:20px; text-align:left;	margin:0 auto; margin-top:15px; margin-right:7px; float:left;">
+		<span class="txtbrancodefault">Rua Tariana, 177, Tatuapé, São Paulo | 11 2302.4750 - 11 95550.4740</span>
+		</div>
+	</div>
+</div>
+</body>
+</html>

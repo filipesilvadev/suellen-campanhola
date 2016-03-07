@@ -1,0 +1,1163 @@
+body {
+	margin:0;
+	padding:0;
+	background-image:url(../img/artisticas/bg01.jpg);
+	background-repeat:repeat;
+}
+#container {
+	width:900px;
+	margin:0 auto;
+}
+#topomarcadagua {
+	width:88px;
+	height:70px;
+	text-align:center;
+	margin:0 auto;
+	background-image:url(../img/artisticas/topomarcadagua.png);
+	background-repeat:no-repeat;
+	opacity:0.3;
+	filter:alpha(opacity=30);
+}
+#logo {
+	width:280px;
+	height:100px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:20px;
+}
+#menu {
+	width:900px;
+	height:40px;
+	margin:0 auto;
+	margin-top:20px;
+	position:relative;
+	z-index:2;
+}
+#imagemhome {
+	width:900px;
+	height:400px;
+	margin:0 auto;
+}
+#imagemhomeservicos {
+	width:900px;
+	height:340px;
+	margin:0 auto;
+}
+#imagemhomedepoimentos {
+	width:900px;
+	height:300px;
+	margin:0 auto;
+}
+#social {
+	width:900px;
+	height:60px;
+	margin:0 auto;
+	margin-top:20px;
+	float:right;
+	position:absolute;
+	z-index:1;
+	background-image:url(../img/artisticas/social.png);
+	background-repeat:no-repeat;
+}
+#endereco {
+	width:900px;
+	height:62px;
+	margin:0 auto;
+	margin-top:-10px;
+	float:right;
+	position:absolute;
+	z-index:1;
+	background-image:url(../img/artisticas/endereco.png);
+	background-repeat:no-repeat;
+}
+#endereco2 {
+	width:900px;
+	height:62px;
+	margin:0 auto;
+	margin-top:-10px;
+	float:right;
+	position:absolute;
+	z-index:1;
+	background-image:url(../img/artisticas/endereco2.png);
+	background-repeat:no-repeat;
+}
+#endereconoivas {
+	width:900px;
+	height:75px;
+	margin:0 auto;
+	margin-top:-10px;
+	float:right;
+	position:absolute;
+	z-index:1;
+	background-image:url(../img/artisticas/endereconoivas.png);
+	background-repeat:no-repeat;
+}
+#mainwindow {
+	width:900px;
+	height:655px;
+	text-align:center;
+	margin:0 auto;
+	background-image:url(../img/artisticas/mainwindow.png);
+	background-repeat:no-repeat;
+}
+#mainwindow2 {
+	width:900px;
+	height:390px;
+	text-align:left;
+	margin:0 auto;
+}
+#rodape {
+	height:50px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:10px;
+	background-image:url(../img/artisticas/rodape.jpg);
+	background-repeat:repeat-x;
+}
+
+
+
+
+#esquerda {
+	width:230px;
+	height:455px;
+	margin-top:95px;
+	float:left;
+	text-align:center;
+}
+#esquerdaimg {
+	width:180px;
+	height:180px;
+	text-align:left;
+	margin:0 auto;
+	float:left;
+	z-index:1;
+	margin-left:25px;
+	margin-top:5px;
+}
+#esquerdabola {
+	width:230px;
+	height:190px;
+	text-align:left;
+	margin:0 auto;
+	background-image:url(../img/artisticas/esquerdabola.png);
+	background-repeat:no-repeat;
+}
+#esquerdatitulo {
+	width:230px;
+	height:35px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:15px;
+	background-image:url(../img/artisticas/esquerdatitulo.png);
+	background-repeat:no-repeat;
+}
+#esquerdatxt {
+	width:230px;
+	height:150px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:10px;
+}
+#esquerdarodape {
+	width:110px;
+	height:15px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:10px;
+	background-image:url(../img/artisticas/meiosrodape.png);
+	background-repeat:no-repeat;
+}
+
+
+#meio {
+	width:440px;
+	height:520px;
+	margin-top:30px;
+	float:left;
+}
+#meiorodape {
+	width:135px;
+	height:15px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:10px;
+	background-image:url(../img/artisticas/meiosrodape2.png);
+	background-repeat:no-repeat;
+}
+
+
+#direita {
+	width:230px;
+	height:455px;
+	margin-top:95px;
+	float:left;
+	text-align:center;
+}
+#direitaimg {
+	width:180px;
+	height:180px;
+	text-align:left;
+	margin:0 auto;
+	float:left;
+	z-index:1;
+	margin-left:25px;
+	margin-top:5px;
+}
+#direitabola {
+	width:230px;
+	height:190px;
+	text-align:left;
+	margin:0 auto;
+	background-image:url(../img/artisticas/direitabola.png);
+	background-repeat:no-repeat;
+}
+#direitatitulo {
+	width:230px;
+	height:35px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:15px;
+	background-image:url(../img/artisticas/direitatitulo.png);
+	background-repeat:no-repeat;
+}
+#direitatxt {
+	width:230px;
+	height:150px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:10px;
+}
+#direitarodape {
+	width:110px;
+	height:15px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:10px;
+	background-image:url(../img/artisticas/meiosrodape.png);
+	background-repeat:no-repeat;
+}
+
+
+
+
+#petala {
+	width:164px;
+	height:120px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:-50px;
+	margin-right:170px;
+	float:right;
+	z-index:0;
+	background-image:url(../img/artisticas/petala.jpg);
+	background-repeat:no-repeat;
+}
+#petala2 {
+	width:135px;
+	height:100px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:-465px;
+	margin-right:233px;
+	float:right;
+	position:relative;
+	z-index:2;
+	background-image:url(../img/artisticas/petala2.png);
+	background-repeat:no-repeat;
+}
+#petala3 {
+	width:135px;
+	height:100px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:-745px;
+	margin-right:233px;
+	float:right;
+	position:relative;
+	z-index:2;
+	background-image:url(../img/artisticas/petala2.png);
+	background-repeat:no-repeat;
+}
+#mail2 {
+	width:360px;
+	height:18px;
+	float:left;
+	padding-top:8px;
+	padding-left:5px;
+	margin-left:360px;
+	margin-top:0px;
+	position:absolute;
+	z-index:2;
+	background-color:#91623f;
+	display:none;
+}
+#mail3 {
+	width:230px;
+	height:20px;
+	float:left;
+	margin-left:132px;
+	margin-top:-20px;
+}
+#galeria {
+	width:550px;
+	height:400px;
+	position:absolute;
+	float:left;
+	z-index:0;
+}
+#galeria2 {
+	width:550px;
+	height:500px;
+	position:absolute;
+	float:left;
+	z-index:0;
+}
+#galeriavideo {
+	width:550px;
+	height:400px;
+	margin:0 auto;
+	position:absolute;
+	display:none;
+	z-index:1;
+}
+#galeriatratamentos {
+	width:550px;
+	height:400px;
+	position:absolute;
+	float:left;
+	z-index:0;
+}
+#aclinicamainwindow {
+	width:900px;
+	height:850px;
+	text-align:center;
+	margin:0 auto;
+}
+#aclinicamainwindow2 {
+	width:900px;
+	height:1330px;
+	text-align:center;
+	margin:0 auto;
+}
+#aclinicaesquerda {
+	width:550px;
+	height:850px;
+	margin:0 auto;
+	float:left;
+}
+#aclinicadireita {
+	width:350px;
+	height:850px;
+	margin:0 auto;
+	float:left;
+	background-image:url(../img/artisticas/aclinicadireitabg.png);
+	background-repeat:no-repeat;
+}
+#aclinicadireita2 {
+	width:350px;
+	height:1350px;
+	margin:0 auto;
+	float:left;
+	background-image:url(../img/artisticas/aclinicadireitabg2.png);
+	background-repeat:no-repeat;
+}
+#aclinicatitulogrande {
+	width:550px;
+	height:35px;
+	margin-top:425px;
+	background-image:url(../img/artisticas/aclinicatitulogrande.png);
+	background-repeat:no-repeat;
+	position:absolute;
+}
+#aclinicatitulogrande2 {
+	width:550px;
+	height:35px;
+	margin-top:425px;
+	background-image:url(../img/artisticas/aclinicatitulogrande2.png);
+	background-repeat:no-repeat;
+	position:absolute;
+}
+#aclinicatxtgrande {
+	width:550px;
+	height:180px;
+	margin-top:470px;
+	text-align:left;
+	position:absolute;
+}
+#aclinicaimgbg {
+	width:530px;
+	height:200px;
+	text-align:center;
+	margin:0 auto;
+	background-image:url(../img/artisticas/aclinicaimgbg.png);
+	background-repeat:no-repeat;
+}
+#aclinicabola {
+	width:130px;
+	height:125px;
+	float:left;
+	margin-top:35px;
+	margin-left:5px;
+	padding-top:5px;
+	background-image:url(../img/artisticas/aclinicabola.png);
+	background-repeat:no-repeat;
+}
+#aclinicabola2 {
+	width:190px;
+	height:185px;
+	float:left;
+	margin-top:5px;
+	margin-left:35px;
+	padding-top:5px;
+	background-image:url(../img/artisticas/aclinicabola2.png);
+	background-repeat:no-repeat;
+}
+#aclinicabola3 {
+	width:130px;
+	height:125px;
+	float:left;
+	margin-top:35px;
+	margin-left:35px;
+	padding-top:5px;
+	background-image:url(../img/artisticas/aclinicabola.png);
+	background-repeat:no-repeat;
+}
+#aclinicaseparador01 {
+	width:25px;
+	height:124px;
+	float:left;
+	position:absolute;
+	margin-top:140px;
+	margin-left:537px;
+	background-image:url(../img/artisticas/aclinicaseparador01.png);
+	background-repeat:no-repeat;
+	z-index:2;
+}
+#aclinicaseparador02 {
+	width:25px;
+	height:124px;
+	float:left;
+	position:absolute;
+	margin-top:190px;
+	margin-left:537px;
+	background-image:url(../img/artisticas/aclinicaseparador01.png);
+	background-repeat:no-repeat;
+	z-index:2;
+}
+#contatotitulomeio {
+	width:230px;
+	height:35px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:15px;
+	background-image:url(../img/artisticas/contatotitulomeio.png);
+	background-repeat:no-repeat;
+}
+#contatotxtmeio {
+	width:310px;
+	height:35px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:10px;
+}
+#contatomeiorodape {
+	width:110px;
+	height:15px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:20px;
+	background-image:url(../img/artisticas/meiosrodape.png);
+	background-repeat:no-repeat;
+}
+#contatoesquerda {
+	width:230px;
+	height:470px;
+	margin-top:30px;
+	float:left;
+	text-align:center;
+}
+#contatotituloesquerda {
+	width:230px;
+	height:35px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:15px;
+	background-image:url(../img/artisticas/contatotituloesquerda.png);
+	background-repeat:no-repeat;
+}
+#contatoesquerdatxt {
+	width:85px;
+	height:90px;
+	text-align:Left;
+	margin:0 auto;
+	margin-top:10px;
+	margin-left:20px;
+	float:left;
+	position:relative;
+}
+#contatoesquerdatxt2 {
+	width:120px;
+	height:90px;
+	text-align:Left;
+	margin:0 auto;
+	margin-top:10px;
+	float:left;
+	position:relative;
+}
+#contatoesquerdarodape {
+	width:88px;
+	height:175px;
+	text-align:center;
+	margin:0 auto;
+	margin-left:71px;
+	float:left;
+	position:relative;
+	background-image:url(../img/artisticas/contatoimgesquerda.png);
+	background-repeat:no-repeat;
+}
+#contatomainwindow {
+	width:900px;
+	height:500px;
+	text-align:center;
+	margin:0 auto;
+	background-image:url(../img/artisticas/mainwindow.png);
+	background-repeat:no-repeat;
+}
+#contatodireita {
+	width:230px;
+	height:470px;
+	margin-top:30px;
+	float:left;
+	text-align:center;
+}
+#contatomeio {
+	width:440px;
+	height:470px;
+	margin-top:30px;
+	float:left;
+}
+#play {
+	cursor:pointer;
+}
+#thmbgaleria {
+	cursor:pointer;
+}
+#menuservicos {
+	width:900px;
+	height:340px;
+	margin:0 auto;
+	text-align:center;
+}
+
+
+
+
+.socialinsta {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 30px;
+	height: 30px;
+	background: url(../img/artisticas/socialinsta.png) no-repeat;
+}
+.socialinsta span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/socialinsta.png) no-repeat;
+	background-position: 0 -30px;
+}
+.socialinsta:hover span {
+	opacity: 1;
+}
+.socialface {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 30px;
+	height: 30px;
+	background: url(../img/artisticas/socialface.png) no-repeat;
+}
+.socialface span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/socialface.png) no-repeat;
+	background-position: 0 -30px;
+}
+.socialface:hover span {
+	opacity: 1;
+}
+.socialmail {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 30px;
+	height: 30px;
+	background: url(../img/artisticas/socialmail.png) no-repeat;
+}
+.socialmail span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/socialmail.png) no-repeat;
+	background-position: 0 -30px;
+}
+.socialmail:hover span {
+	opacity: 1;
+}
+.menuclinica {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 86px;
+	height: 38px;
+	background: url(../img/menu/menuclinica.png) no-repeat;
+}
+.menuclinica span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/menuclinica.png) no-repeat;
+	background-position: 0 -38px;
+}
+.menuclinica:hover span {
+	opacity: 1;
+}
+.menuservicos {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 80px;
+	height: 38px;
+	background: url(../img/menu/menuservicos.png) no-repeat;
+}
+.menuservicos span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/menuservicos.png) no-repeat;
+	background-position: 0 -38px;
+}
+.menuservicos:hover span {
+	opacity: 1;
+}
+.menucontato {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 80px;
+	height: 38px;
+	background: url(../img/menu/menucontato.png) no-repeat;
+}
+.menucontato span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/menucontato.png) no-repeat;
+	background-position: 0 -38px;
+}
+.menucontato:hover span {
+	opacity: 1;
+}
+.menudepoimentos {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 120px;
+	height: 38px;
+	background: url(../img/menu/menudepoimentos.png) no-repeat;
+}
+.menudepoimentos span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/menudepoimentos.png) no-repeat;
+	background-position: 0 -38px;
+}
+.menudepoimentos:hover span {
+	opacity: 1;
+}
+.menunoivas {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 70px;
+	height: 38px;
+	background: url(../img/menu/menunoivas.png) no-repeat;
+}
+.menunoivas span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/menunoivas.png) no-repeat;
+	background-position: 0 -38px;
+}
+.menunoivas:hover span {
+	opacity: 1;
+}
+.menuclipping {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 84px;
+	height: 38px;
+	background: url(../img/menu/menuclipping.png) no-repeat;
+}
+.menuclipping span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/menuclipping.png) no-repeat;
+	background-position: 0 -38px;
+}
+.menuclipping:hover span {
+	opacity: 1;
+}
+.menufaq {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 80px;
+	height: 38px;
+	background: url(../img/menu/menufaq.png) no-repeat;
+}
+.menufaq span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/menufaq.png) no-repeat;
+	background-position: 0 -38px;
+}
+.menufaq:hover span {
+	opacity: 1;
+}
+.homefone {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 29px;
+	height: 29px;
+	background: url(../img/artisticas/homefone.png) no-repeat;
+}
+.homefone span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/homefone.png) no-repeat;
+	background-position: 0 -29px;
+}
+.homefone:hover span {
+	opacity: 1;
+}
+.homelocal {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 29px;
+	height: 29px;
+	background: url(../img/artisticas/homelocal.png) no-repeat;
+}
+.homelocal span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/homelocal.png) no-repeat;
+	background-position: 0 -29px;
+}
+.homelocal:hover span {
+	opacity: 1;
+}
+.homedireitaimg {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 180px;
+	height: 180px;
+	background: url(../img/artisticas/homedireitaimg.png) no-repeat;
+}
+.homedireitaimg span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/homedireitaimg.png) no-repeat;
+	background-position: 0 -180px;
+}
+.homedireitaimg:hover span {
+	opacity: 1;
+}
+.homeesquerdaimg {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 180px;
+	height: 180px;
+	background: url(../img/artisticas/homeesquerdaimg.png) no-repeat;
+}
+.homeesquerdaimg span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/homeesquerdaimg.png) no-repeat;
+	background-position: 0 -180px;
+}
+.homeesquerdaimg:hover span {
+	opacity: 1;
+}
+.aclinicaimg01 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 120px;
+	height: 120px;
+	background: url(../img/artisticas/aclinicaimg01.png) no-repeat;
+}
+.aclinicaimg01 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/aclinicaimg01.png) no-repeat;
+	background-position: 0 -120px;
+}
+.aclinicaimg01:hover span {
+	opacity: 1;
+}
+.aclinicaimg02 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 180px;
+	height: 180px;
+	background: url(../img/artisticas/aclinicaimg02.png) no-repeat;
+}
+.aclinicaimg02 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/aclinicaimg02.png) no-repeat;
+	background-position: 0 -180px;
+}
+.aclinicaimg02:hover span {
+	opacity: 1;
+}
+.aclinicaimg03 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 120px;
+	height: 120px;
+	background: url(../img/artisticas/aclinicaimg03.png) no-repeat;
+}
+.aclinicaimg03 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/aclinicaimg03.png) no-repeat;
+	background-position: 0 -120px;
+}
+.aclinicaimg03:hover span {
+	opacity: 1;
+}
+.aclinicagaleria1 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 115px;
+	height: 24px;
+	background: url(../img/artisticas/aclinicagaleria01.png) no-repeat;
+}
+.aclinicagaleria1 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/aclinicagaleria01.png) no-repeat;
+	background-position: 0 -24px;
+}
+.aclinicagaleria1:hover span {
+	opacity: 1;
+}
+.aclinicagaleria2 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 115px;
+	height: 24px;
+	background: url(../img/artisticas/aclinicagaleria02.png) no-repeat;
+}
+.aclinicagaleria2 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/aclinicagaleria02.png) no-repeat;
+	background-position: 0 -24px;
+}
+.aclinicagaleria2:hover span {
+	opacity: 1;
+}
+.aclinicagaleria3 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 115px;
+	height: 24px;
+	background: url(../img/artisticas/aclinicagaleria03.png) no-repeat;
+}
+.aclinicagaleria3 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/aclinicagaleria03.png) no-repeat;
+	background-position: 0 -24px;
+}
+.aclinicagaleria3:hover span {
+	opacity: 1;
+}
+.imgservicos1 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 117px;
+	height: 218px;
+	background: url(../img/menu/imgservicos1.png) no-repeat;
+}
+.imgservicos1 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/imgservicos1.png) no-repeat;
+	background-position: 0 -218px;
+}
+.imgservicos1:hover span {
+	opacity: 1;
+}
+.imgservicos2 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 117px;
+	height: 218px;
+	background: url(../img/menu/imgservicos2.png) no-repeat;
+}
+.imgservicos2 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/imgservicos2.png) no-repeat;
+	background-position: 0 -218px;
+}
+.imgservicos2:hover span {
+	opacity: 1;
+}
+.imgservicos3 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 117px;
+	height: 218px;
+	background: url(../img/menu/imgservicos3.png) no-repeat;
+}
+.imgservicos3 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/imgservicos3.png) no-repeat;
+	background-position: 0 -218px;
+}
+.imgservicos3:hover span {
+	opacity: 1;
+}
+.imgservicos4 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 117px;
+	height: 218px;
+	background: url(../img/menu/imgservicos4.png) no-repeat;
+}
+.imgservicos4 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/imgservicos4.png) no-repeat;
+	background-position: 0 -218px;
+}
+.imgservicos4:hover span {
+	opacity: 1;
+}
+.imgservicos5 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 117px;
+	height: 218px;
+	background: url(../img/menu/imgservicos5.png) no-repeat;
+}
+.imgservicos5 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/imgservicos5.png) no-repeat;
+	background-position: 0 -218px;
+}
+.imgservicos5:hover span {
+	opacity: 1;
+}
+.imgservicos6 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 117px;
+	height: 218px;
+	background: url(../img/menu/imgservicos6.png) no-repeat;
+}
+.imgservicos6 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/imgservicos6.png) no-repeat;
+	background-position: 0 -218px;
+}
+.imgservicos6:hover span {
+	opacity: 1;
+}
+.imgservicos7 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 117px;
+	height: 218px;
+	background: url(../img/menu/imgservicos7.png) no-repeat;
+}
+.imgservicos7 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/menu/imgservicos7.png) no-repeat;
+	background-position: 0 -218px;
+}
+.imgservicos7:hover span {
+	opacity: 1;
+}
+.plusservicos {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 117px;
+	height: 50px;
+	background: url(../img/artisticas/plusservicos.png) no-repeat;
+}
+.plusservicos span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/plusservicos.png) no-repeat;
+	background-position: 0 -50px;
+}
+.plusservicos:hover span {
+	opacity: 1;
+}
+.depoimentosimg01 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 130px;
+	height: 130px;
+	background: url(../img/artisticas/depoimentosimg01.png) no-repeat;
+}
+.depoimentosimg01 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/depoimentosimg01.png) no-repeat;
+	background-position: 0 -130px;
+}
+.depoimentosimg01:hover span {
+	opacity: 1;
+}
+.depoimentosimg02 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 130px;
+	height: 130px;
+	background: url(../img/artisticas/depoimentosimg02.png) no-repeat;
+}
+.depoimentosimg02 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/depoimentosimg02.png) no-repeat;
+	background-position: 0 -130px;
+}
+.depoimentosimg02:hover span {
+	opacity: 1;
+}
+.depoimentosimg03 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 130px;
+	height: 130px;
+	background: url(../img/artisticas/depoimentosimg03.png) no-repeat;
+}
+.depoimentosimg03 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/depoimentosimg03.png) no-repeat;
+	background-position: 0 -130px;
+}
+.depoimentosimg03:hover span {
+	opacity: 1;
+}
+.depoimentosimg04 {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 410px;
+	height: 242px;
+	background: url(../img/artisticas/depoimentosimg04.jpg) no-repeat;
+}
+.depoimentosimg04 span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../img/artisticas/depoimentosimg04.jpg) no-repeat;
+	background-position: 0 -242px;
+}
+.depoimentosimg04:hover span {
+	opacity: 1;
+}
+
+
+
+
+.txtmarromdefault {
+	color:#91623f;
+	font-size:13px;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	line-height:14px;
+}
+.txtbrancodefault {
+	color:#FFF;
+	font-size:13px;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	line-height:14px;
+}
+.txtbrancorodape {
+	color:#FFF;
+	font-size:10px;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	line-height:12px;
+}
+.txtmarromsocial {
+	color:#91623f;
+	font-size:11px;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	line-height:12px;
+}
+.txtmarromservicos {
+	color:#91623f;
+	font-size:13px;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	line-height:13px;
+}
+.txtrosaservicos {
+	color:#bf565c;
+	font-size:13px;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	line-height:13px;
+}
+.txtrosatitulo {
+	color:#bf565c;
+	font-size:14px;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	line-height:14px;
+}
+.txtmarromatualize {
+	color:#91623f;
+	font-size:26px;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	line-height:14px;
+}
+.txtcinzaespacado {
+	color:#aab0ab;
+	font-size:13px;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	line-height:18px;
+}
+.txtmarromespacado {
+	color:#91623f;
+	font-size:13px;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	line-height:18px;
+}

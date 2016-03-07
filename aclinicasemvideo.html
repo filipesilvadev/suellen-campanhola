@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Tratamentos faciais, corporais, depilação, fotodepilação, design de sobrancelhas, tratamentos de última geração e bem-estar. Atendemos na região do Tatuapé, agende sua avaliação grátis!">
+<meta name="keywords" content="estética, depilação, fotodepilação, celulite, flacidez, design de sobrancelhas, estria, gordura localizada, peeling, peeling de cristal, peeling de diamante, limpeza de pele, massagem, massagem modeladora, heccus, drenagem, tratamentos faciais, tratamentos corporais, criolipólise">
+<meta name="robots" content="index,follow">
+<title>Suellen Campanhola Estética</title>
+
+<link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="icon/favicon.gif" type="image/gif" /> 
+
+<!-- abre CSS -->
+<link href="css/estilo.css" rel="stylesheet" type="text/css">
+<!-- fecha CSS -->
+
+<!--[if IE 7]>
+	<script type="text/javascript">
+	location.href='atualize.html';
+	</script>
+<![endif]-->
+
+<!--[if IE 6]>
+	<script type="text/javascript">
+	location.href='atualize.html';
+	</script>
+<![endif]-->
+
+<!--[if IE 5]>
+	<script type="text/javascript">
+	location.href='atualize.html';
+	</script>
+<![endif]-->
+
+<!-- abre img sliders -->
+<script src="scripts/sliderengine/jquery.js"></script>
+<script src="scripts/sliderengine/amazingslider.js"></script>
+<script src="scripts/sliderengine/initslider-3.js"></script>
+<!-- fecha img sliders -->
+
+<!-- abre script hover botões -->
+<script src="scripts/hover.js"></script>
+<!-- fecha scripts hover botões -->
+
+<!-- abre show/hide mailing -->
+<script language="javascript"> 
+<!--
+var state = 'none';
+
+function showhide(layer_ref) {
+
+if (state == 'block') { 
+state = 'none'; 
+} 
+else { 
+state = 'block'; 
+} 
+if (document.all) { //IS IE 4 or 5 (or 6 beta) 
+eval( "document.all." + layer_ref + ".style.display = state"); 
+} 
+if (document.layers) { //IS NETSCAPE 4 or below 
+document.layers[layer_ref].display = state; 
+} 
+if (document.getElementById &&!document.all) { 
+hza = document.getElementById(layer_ref); 
+hza.style.display = state; 
+} 
+} 
+//--> 
+</script> 
+<!-- fecha show/hide mailing -->
+
+<!-- abre script imagens -->
+<script>
+$(document).ready(function() {
+
+$(".galeria").click(function(event) {
+event.preventDefault();
+$("#galeria").html($("<img>").attr("src", this.href));
+});
+
+});
+</script>
+<!-- fecha script imagens -->
+
+<!-- abre script show galeria -->
+<script type="text/javascript">
+function showDiv() {
+div = document.getElementById('galeriavideo');
+div.style.display = "block";
+}
+</script>
+<!-- fecha script show galeria -->
+
+<!-- abre script hide galeria -->
+<script type="text/javascript">
+function hideDiv() {
+div = document.getElementById('galeriavideo');
+div.style.display = "none";
+}
+</script>
+<!-- fecha script hide galeria -->
+
+<!-- abre google analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16195208-24']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- fecha google analytics -->
+</head>
+
+<body oncopy="return false" oncut="return false" onpaste="return false">
+<div id="container">
+	<div id="topomarcadagua"></div>
+    <div id="logo"><a href="index.html"><img src="img/artisticas/logo.png"></a></div>
+    <div id="social">
+    	<div style="width:30px; height:30px; margin-right:41px; margin-top:23px; float:right;">
+		<a href="http://instagram.com/suellencampanhola" class="socialinsta" target="_blank"><span></span></a>
+		</div>
+        <div style="width:30px; height:30px; margin-right:20px; margin-top:23px; float:right;">
+		<a href="https://www.facebook.com/suellencampanhola" class="socialface" target="_blank"><span></span></a>
+		</div>
+        <div style="width:30px; height:30px; margin-right:19px; margin-top:23px; float:right;">
+		<a href="#" class="socialmail" onclick="showhide('mail2')"><span></span></a>
+		</div>
+	</div>
+    <div id="menu">
+    <img src="img/menu/menuclinica2.png">
+    <a href="servicos.html" class="menuservicos"><span></span></a>
+    <a href="contato.html" class="menucontato"><span></span></a>
+    <a href="depoimentos.html" class="menudepoimentos"><span></span></a>
+    <a href="noivas.html" class="menunoivas"><span></span></a>
+    <a href="clipping.html" class="menuclipping"><span></span></a>
+    <a href="faq.html" class="menufaq"><span></span></a>
+    </div>
+   	<div id="mail2"><span class="txtbrancorodape">Receba novidades por e-mail</span>
+		<div id="mail3">
+		<form action= "mail/mailing.php" method="post" name="form1" id="form1" onSubmit="return valida_form()">
+		<input name= "Email" type="text" class= "formulario_preenchimento" id="Email" size="25" />
+		<input type="submit" class="formulario_preenchimento" value="ok" />
+		<input name="Wremetente" type="hidden" id="Wremetente" value="contato@suellencampanhola.com" />
+		<input name="Wdestinatario" type="hidden" id="Wdestinatario" value="contato@suellencampanhola.com" />
+		<input name="Wassunto" type="hidden" id="Wassunto" value="Cadastrar no mailing" />
+		<input name="Wsaida" type="hidden" id="Wsaida" value="http://www.suellencampanhola.com/aclinica.html" />
+		</form>
+		</div>
+	</div>
+    <div id="aclinicamainwindow">
+	    <div id="aclinicaseparador01"></div>
+    	<div id="aclinicaesquerda">
+        	<div style="width:550px; height:5px; margin-top:395px; position:absolute; float:left; z-index:2; background-image:url(img/artisticas/molduragaleria.png);"></div>
+            <div id="galeria"><img src="img/ambiente/full/01.jpg"></div>
+            <div id="aclinicatitulogrande"></div>
+            <div id="aclinicatxtgrande">
+            <span class="txtmarromdefault">A clínica Suellen Campanhola foi criada com o objetivo de ser um espaço dedicado ao seu bem-estar diário, onde você pode realizar tratamentos cuidadosamente desenvolvidos para a saúde e beleza do seu corpo.</br></br>
+Venha desfrutar momentos especialmente relaxantes em um dos nossos ambientes projetados para o seu total conforto e saia sentindo-se leve e revigorada.</span>
+            </div>
+            <div style="width:550px; height:270px; position:absolute; margin-top:580px; background-image:url(img/artisticas/aclinica01.jpg);">
+            </div>
+		</div>
+    	<div id="aclinicadireita">
+        	<div style="width:80px; height:75px; float:right; position:relative; z-index:1; margin-top:40px; margin-right:141px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a onclick="showDiv()" href="img/ambiente/full/01.jpg" class="galeria"><img id="thmbgaleria" src="img/ambiente/thmb/01.png"></a></div>
+        	<div style="width:80px; height:75px; float:right; position:relative; margin-top:-10px; margin-right:213px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a onclick="showDiv()" href="img/ambiente/full/02.jpg" class="galeria"><img id="thmbgaleria" src="img/ambiente/thmb/02.png"></a></div>
+            <div style="width:80px; height:75px; float:right; position:relative; margin-top:-80px; margin-right:71px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a onclick="showDiv()" href="img/ambiente/full/03.jpg" class="galeria"><img id="thmbgaleria" src="img/ambiente/thmb/03.png"></a></div>
+            <div style="width:80px; height:75px; float:right; position:relative; margin-top:-10px; margin-right:141px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a onclick="showDiv()" href="img/ambiente/full/04.jpg" class="galeria"><img id="thmbgaleria" src="img/ambiente/thmb/04.png"></a></div>
+            <div style="width:80px; height:75px; float:right; position:relative; margin-top:-10px; margin-right:-220px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a onclick="showDiv()" href="img/ambiente/full/05.jpg" class="galeria"><img id="thmbgaleria" src="img/ambiente/thmb/05.png"></a></div>
+			<div style="width:80px; height:75px; float:right; position:relative; margin-top:-8px; margin-right:213px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a onclick="showDiv()" href="img/ambiente/full/07.jpg" class="galeria"><img id="thmbgaleria" src="img/ambiente/thmb/07.png"></a></div>
+            <div style="width:80px; height:75px; float:right; position:relative; margin-top:63px; margin-right:-292px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a onclick="showDiv()" href="img/ambiente/full/09.jpg" class="galeria"><img id="thmbgaleria" src="img/ambiente/thmb/09.png"></a></div>
+			<div style="width:80px; height:75px; float:right; position:relative; margin-top:-80px; margin-right:-11px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a onclick="showDiv()" href="img/ambiente/full/08.jpg" class="galeria"><img id="thmbgaleria" src="img/ambiente/thmb/08.png"></a></div>
+			<div style="width:80px; height:75px; float:right; position:relative; margin-top:-9px; margin-right:60px; padding-top:5px; background-image:url(img/artisticas/aclinicagaleriabola.png); background-repeat:no-repeat;"><a onclick="showDiv()" href="img/ambiente/full/06.jpg" class="galeria"><img id="thmbgaleria" src="img/ambiente/thmb/06.png"></a></div>
+			<div style="width:80px; height:75px; float:right; position:relative; margin-top:-9px; margin-right:71px; padding-top:5px;"></div>
+            <div style="width:115px; height:82px; float:right; position:relative; margin-top:100px; margin-right:-39px; padding-top:5px;">
+			<div style="width:115px; height:24px;"><img src="img/artisticas/aclinicagaleria012.png"></div>
+			<div style="width:115px; height:24px; margin-top:5px;"><a href="tratamentos.html" class="aclinicagaleria2"><span></span></a></div>
+			<div style="width:115px; height:24px; margin-top:5px;"><a href="equipe.html" class="aclinicagaleria3"><span></span></a></div>
+            </div>
+		</div>
+    </div>
+	<div id="petala2"></div>
+</div>
+<div id="rodape">
+	<div style="width:900px; height:40px; text-align:right;	margin:0 auto;">
+    	<div style="width:62px; height:20px; text-align:right;	margin:0 auto; margin-top:5px; float:right;">
+    	<a href="http://www.raphaelmartins.com.br" target="_blank"><img src="img/artisticas/logomms.png"></a>
+    	</div>
+        <div style="width:250px; height:20px; text-align:right;	margin:0 auto; margin-top:20px; margin-right:7px; float:right;">
+		<span class="txtbrancorodape">2014 Estética Suellen Campanhola | Desenvolvido por</span>
+		</div>
+        <div style="width:550px; height:20px; text-align:left;	margin:0 auto; margin-top:15px; margin-right:7px; float:left;">
+		<span class="txtbrancodefault">Rua Tariana, 177, Tatuapé, São Paulo | 11 2302.4750 - 11 95550.4740</span>
+		</div>
+	</div>
+</div>
+</body>
+</html>
